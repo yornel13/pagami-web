@@ -1,0 +1,45 @@
+.dimension-slider{
+	width: 50%;
+	height: auto;
+	float: left;
+	z-index: 5;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.slider ul{
+	display: flex;
+	width: 700%;
+	padding: 0;
+	animation: cambio 50s infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-in;
+}
+.slider li{
+	width: 100%;
+	list-style: none;
+}
+.slider img{
+	width: 100%;
+}
+@keyframes cambio{
+	0% {margin-left: 0;}
+	12.5% {margin-left: 0;}
+
+	14.5% {margin-left: -100%;}
+	27% {margin-left: -100%;}
+
+	29% {margin-left: -200%;}
+	41.5% {margin-left: -200%;}
+
+	43.5% {margin-left: -300%;}
+	56% {margin-left: -300%;}
+
+	58% {margin-left: -400%;}
+	70.5% {margin-left: -400%;}
+
+	72.5% {margin-left: -500%;}
+	85% {margin-left: -500%;}
+
+	87% {margin-left: -600%;}
+	100% {margin-left: -600%;}
+}

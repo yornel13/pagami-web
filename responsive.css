@@ -1,0 +1,229 @@
+@media screen and (min-width: 1500px) and (max-width: 3000px){
+	.super-contenedor{
+		width: 1500px;
+	}
+	.interno-header{
+		width: 1500px;
+	}
+	.logo{
+		padding-top: 5px;
+	}
+	.tablas{
+		height: 450px;
+	}
+	.banner img{
+		height: 700px;
+	}
+	.corporacion div{
+		width: 1500px;
+	}
+	.corporacion h6{
+		padding-top: 18px;
+	}
+}
+
+@media screen and (min-width: 1030px) and (max-width: 3000px){
+	header{
+		height: 110px;
+	}
+	.interno-header{
+		height: 110px;
+	}
+	nav{
+		padding-top: 40px;
+	}
+	.contenedor-contacto{
+		width: 1000px;
+	}
+}
+
+@media screen and (min-width: 2401px) and (max-width: 3000px){
+	footer{
+		height: 340px;
+	}
+}
+@media screen and (min-width: 2101px) and (max-width: 2400px){
+	footer{
+		height: 320px;
+	}
+}
+
+@media screen and (min-width: 1691px) and (max-width: 2100px){
+	footer{
+		height: 300px;
+	}
+}
+
+@media screen and (min-width: 1491px) and (max-width: 1690px){
+	footer{
+		height: 250px;
+	}
+}
+
+@media screen and  (min-width: 1031px) and (max-width: 1490px){
+	footer{
+		height: 220px;
+	}
+}
+
+@media screen and (max-width: 1030px){
+	header{
+		height: 80px;
+	}
+	.interno-header{
+		height: 80px;
+	}
+	nav{
+		padding-top: 25px;
+	}
+}
+
+@media screen and (max-width: 900px){
+	header{
+		height: 72px;
+	}
+	.interno-header{
+		height: 72px;
+	}
+	footer{
+		height: 200px;
+	}
+	nav{
+		padding-top: 20px;
+	}
+}
+
+@media screen and (max-width: 780px){
+	header{
+		height: 12%;
+	}
+	.interno-header{
+		height: 12%;
+	}
+	nav ul li a{
+		font-size: 20px;
+	}
+	.general{
+		margin: 13% 5%;
+	}
+	h1{
+		font-size: 2em;
+	}
+	.tablas{
+		width: 100%;
+		margin: 0.5em 0 auto;
+	}
+	h3{
+		padding: 4% 20%;
+	}
+	h4{
+		padding: 5.5%;
+	}
+	footer{
+		height: 150px;
+	}
+}
+
+@media screen and (max-width: 640px){
+	header{
+		height: 500px;
+		position: absolute;
+		z-index: 0;
+	}
+	.logo a img{
+		display: none;
+	}
+	.img-logo{
+		display: block;
+		padding: 1em 135%;
+	}
+	h1, h2{
+		color: #FAFAFA;
+	}
+	nav{
+		padding: 15px 0;
+	}
+	nav ul li a{
+		font-size: 18px;
+	}
+	.wap{
+		position: relative;
+		z-index: 15;
+	}
+	.general{
+		width: 95%;
+		margin-top: 20%;
+		margin-bottom: 0;
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.general a img{
+		padding-top: 1em;
+	}
+	.dimension-slider{
+		width: 100%;
+	}
+	h3{
+		padding: 4% 15%;
+	}
+}
+
+@media screen and (max-width: 560px){
+	.logo a img{
+		width: 110%;
+	}
+	.contenedor-contacto{
+		width: 90%;
+	}
+	.contenedor-contacto .informacion{
+		padding: 0 5%;
+	}
+	h3{
+		font-size: 1.1em;
+		padding: 4% 22%;
+	}
+	.informacion p{
+		font-size: 0.9em;
+		padding-bottom: 5px;
+	}
+	footer{
+		height: 120px;
+	}
+	.corporacion{
+		height: 30px;
+	}
+	.corporacion h6{
+		font-size: 0.8em;
+	}
+}
+
+@media screen and (max-width: 485px){
+	footer{
+		height: 140px;
+	}
+	.general{
+		margin-top: 30%;
+	}
+	.contenedor-contacto .informacion{
+		padding: 0 3.5%;
+	}
+	h3{
+		padding: 4% 18%;
+	}
+}
+
+@media screen and (max-width: 330px){
+	.general{
+		margin-top: 35%;
+	}
+	footer{
+		height: 165px;
+	}
+	.contenedor-contacto .informacion{
+		padding: 0 5%;
+		width: 90%;
+	}
+	h3{
+		padding: 4% 15%;
+	}
+}

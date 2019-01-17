@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', "Open Sans", "Helvetica Neue", sans-serif;
+}
+.super-contenedor{
+	width: 100%;
+	margin: auto;
+}
+
+/*..............................................Aqui comienza el encabezado(menu)*/
+header{
+	width: 100%;
+	height: 15%;
+	background-color: rgba(66, 133, 244, .98);
+	position: fixed;
+	z-index: 10;
+}
+.interno-header{
+	width: 90%;
+	height: 15%;
+	margin: auto;
+}
+.logo{
+	width: 30%;
+	float: left;
+	padding-top: 10px;
+}
+.logo a img{
+	width: 80%;
+	height: auto;
+	box-sizing: border-box;
+}
+.img-logo{
+	display: none;
+	width: 5em;
+	height: auto;
+}
+
+/*.....................................................menu de navegacion*/
+nav{
+	width: 60%;
+	float: right;
+	text-align: right;
+	margin: auto;
+	padding: 25px 0;
+}
+nav ul li{
+	display: inline;
+}
+nav ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	padding-right: 5%;
+}
+nav ul li a:hover{
+	color: #FFA64C;
+}
+
+/*...............................................estilos de las h1...h6*/
+h1{
+	font-size: 2.5em;
+	letter-spacing: 1px;
+	font-weight: normal;
+	text-align: left;
+}
+h2{
+	padding-top: 5%;
+	letter-spacing: 0.5px;
+	font-weight: lighter;
+	color: #666;
+	font-size: 1em;
+}
+h3{
+	padding: 4% 30%;
+	color: #555;
+	font-size: 1.5em;
+}
+h4{
+	padding: 8%;
+	color: #777;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+/*...............................Aqui termina el encabezado y comienza la descripcion*/
+.wap{
+	width: 70%;
+	margin: auto;
+	padding-top: 7%;
+}
+.general{
+	width: 40%;
+	margin: 20% 5%;
+	float: left;
+	text-align: justify;
+}
+.general a img{
+	width: 12em;
+	display:block;
+	margin:auto;
+	padding-top: 2em;
+}
+
+/*......................................A partir de aqui estan las 2 especificaciones*/
+.especificaciones{
+	width: 100%;
+	height: 400px;
+}
+.tablas img{
+	width: auto;
+	height: 150px;
+}
+.tablas p{
+	width: 70%;
+	margin: auto;
+	padding-top: 5%;
+	color: #333;
+}
+
+/*.................................................disposicion las tablas*/
+.tablas{
+	width: 49.2%;
+	height: 390px;
+	float: left;
+	text-align: center;
+	box-sizing: border-box;
+}
+.tabla-esp1{
+	margin: 1% 0 auto;
+	margin-right: 0.8%;
+	background-color: #E5F0FF;
+}
+.tabla-esp2{
+	margin: 1% 0 auto;
+	margin-left: 0.8%;
+	background-color: #FFE5FD;
+}
+
+/*......................................texto de intermedio entre especificaciones e imagen*/
+.texto{
+	clear: both;
+	margin: auto;
+	padding-top: 5%;
+	padding-bottom: 3%;
+	text-align: center;
+}
+
+/*........................................Imagen de transicion antes del footer*/
+.banner{
+	width: 100%;
+	background: #F4F4F4;
+	margin-top: 1em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.banner img{
+	height: 20em;
+	min-height: 200px;
+	max-height: 700px;
+	width: auto;
+	background-repeat: no-repeat;
+}
+
+/*.......................................Aqui se le da estilo al footer de contacto*/
+footer{
+	clear: both;
+	width: 100%;
+	height: 200px;
+	background-color: #273443;
+	z-index: 7;
+}
+.contenedor-contacto{
+	width: 70%;
+	color: #fff;
+	margin: auto;
+}
+.contenedor-contacto .informacion{
+	float: left;
+	width: 40%;
+	color: #CACACA;
+	padding-left: 10%;
+	line-height: 1.7em;
+}
+.contenedor-contacto h3{
+	color: #fff; /*rgba(255, 255, 255, .6)*/
+}
+
+/*......................................................iconos de contactos*/
+#wa{
+	float: left;
+	padding-right: 5px;
+}
+#email{
+	float: left;
+	padding-right: 5px;
+}
+
+/*.............................................estilos de la informacion del contacto*/
+.contenedor-contacto .informacion p a{
+	color: #fff;
+	font-weight: normal;
+}
+.contenedor-contacto .informacion p a:hover{
+	color: #80b4ff;
+}
+
+/*.........................................................footer del footer*/
+.corporacion{
+	width: 100%;
+	background-color: #222D39;
+	height: 50px;
+	margin-top: 7%;
+	vertical-align: text-bottom;
+}
+.corporacion div{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.corporacion h6{
+	color: rgba(255, 255, 255, .6);
+    font-size: 1em;
+    font-weight: lighter;
+    padding-top: 1.7%;
+    box-sizing: border-box;
+}
